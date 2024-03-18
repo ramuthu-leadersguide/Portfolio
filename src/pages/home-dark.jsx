@@ -62,9 +62,9 @@ const HomeDark = () => {
               <div data-aos="fade-up" data-aos-duration="1200">
                 <div className="title-section text-start text-sm-center">
                   <h1>
-                    ABOUT <span>ME</span>
+                    ABOUT <span>US</span>
                   </h1>
-                  <span className="title-bg">Resume</span>
+                  <span className="title-bg">ABOUT US</span>
                 </div>
                 {/* End title */}
                 <AboutMain />
@@ -80,7 +80,7 @@ const HomeDark = () => {
                 data-aos-duration="1200"
               >
                 <h1>
-                  my <span>portfolio</span>
+                  our <span>portfolio</span>
                 </h1>
                 <span className="title-bg">works</span>
               </div>
@@ -110,12 +110,11 @@ const HomeDark = () => {
                   {/*  Left Side Starts */}
                   <div className="col-12 col-lg-4">
                     <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                      {"Don't"} be shy !
+                      {"Reach"} out to us !
                     </h3>
                     <p className="open-sans-font mb-4">
-                      Feel free to get in touch with me. I am always open to
-                      discussing new projects, creative ideas or opportunities
-                      to be part of your visions.
+                    We are enthusiastic about the prospect of connecting with you! Whether it involves brainstorming new projects, exploring creative ideas, or collaborating on your vision, we're eager to dive in and be a part of the conversation. Please feel free to reach out at your convenience.
+
                     </p>
                     <Address />
                     {/* End Address */}
@@ -144,7 +143,7 @@ const HomeDark = () => {
                 data-aos-duration="1200"
               >
                 <h1>
-                  my <span>blog</span>
+                  our <span>blog</span>
                 </h1>
                 <span className="title-bg">posts</span>
               </div>

@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const SEO = ({ pageTitle }) => {
 
-  const metadescription = `Passionate software engineer in Sri Lanka, skilled in HTML,CSS,React,Laravel and WordPress.Associate at Zuse Technologies.Let's connect,bring your ideas to life`;
+  const metadescription = `Empowering project success and enhancing business efficiency, our team excels in project management and business analysis. With a wealth of expertise and a dedication to delivering excellence, we thrive in dynamic settings that prioritize strategic innovation and impactful solutions.`;
 
   const analyticsScript = `
     window.dataLayer = window.dataLayer || [];
@@ -15,7 +15,7 @@ const SEO = ({ pageTitle }) => {
   <>
     <Head>
       <title>
-        {pageTitle ? `${pageTitle} - Rasan Dilikshana Personal Portfolio` : "Rasan Dilikshana Personal Portfolio"}
+        {pageTitle ? `${pageTitle} - Leader's Guide Portfolio` : "Leader's Guide Portfolio"}
       </title>
       <meta http-equiv='content-language' content='en-gb'/>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -35,8 +35,8 @@ const SEO = ({ pageTitle }) => {
             {
               "@context": "http://schema.org",
               "@type": "Person",
-              "name": "Rasan Dilikshana",
-              "jobTitle": "Software Developer",
+              "name": "Leader's Guide",
+              "jobTitle": "Project Management and Business Analysis",
               "url": "https://rasandilikshana.me/",
               "sameAs": [
                 "https://twitter.com/Rasan17516802",
@@ -48,7 +48,7 @@ const SEO = ({ pageTitle }) => {
         </script>
 
       {/* Open Graph meta tags for better social sharing */}
-      <meta property="og:title" content={pageTitle || "Rasan Dilikshana Personal Portfolio"} />
+      <meta property="og:title" content={pageTitle || "Leader's Guide Portfolio"} />
       <meta property="og:description" content={metadescription} />
       <meta property="og:image" content="/assets/img/hero/dark.jpg" />
       <meta property="og:url" content="https://rasandilikshana.me" />
@@ -56,7 +56,7 @@ const SEO = ({ pageTitle }) => {
 
       {/* Twitter Card meta tags for better Twitter sharing */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={pageTitle || "Rasan Dilikshana Personal Portfolio"} />
+      <meta name="twitter:title" content={pageTitle || "Leader's Guide Portfolio"} />
       <meta name="twitter:description" content={metadescription} />
       <meta name="twitter:image" content="/assets/img/hero/dark.jpg" />
 

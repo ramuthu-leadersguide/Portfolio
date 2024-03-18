@@ -8,10 +8,10 @@ import Image from "next/image";
 const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "rasan dilikshana",
-  heroDesignation: "Software Engineer",
-  heroDescriptions: `I'm a software engineer with a toolbox full of skills, including HTML, CSS, ReactJS, JavaScript, NodeJS, Java, Laravel, Tailwind CSS, ASP.NET, Bootstrap, SQL, and more. Whether it's crafting sleek front-end designs or robust back-end solutions, I'm passionate about building software that enhances user experiences and makes a positive impact.`,
-  heroBtn: "more about me",
+  heroTitleName: "Team Leader's Guide",
+  heroDesignation: "Your Project Changer",
+  heroDescriptions: `Passionate about driving project success and optimizing business performance, We are seasoned professionals specializing in project management and business analysis. With a solid foundation of experience and a commitment to excellence, we thrive in dynamic environments where strategic thinking and effective solutions are paramount.`,
+  heroBtn: "more about us",
 };
 
 const Hero = () => {
@@ -36,7 +36,7 @@ const Hero = () => {
               // style={{width:'100%',height:'100%'}}
             />
             <h1 className="text-uppercase poppins-font">
-              {"I'm"} {heroContent.heroTitleName}.
+              {"We're"} {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>

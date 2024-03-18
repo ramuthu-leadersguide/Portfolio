@@ -5,22 +5,21 @@ const Address = () => {
     <>
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-map position-absolute"></i>
-        <span className="d-block">Address Point</span>No 435 Medakoratuwa ,
-        Kongala East Hakmana 81300.
+        <span className="d-block">Address Point</span>No 55/31, Suriya Gardens, Wekada Road, Homagama.
       </p>
       {/* End .custom-span-contact */}
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-envelope-open position-absolute"></i>
-        <span className="d-block">mail me</span>{" "}
-        <a href="mailto:rasandilikshana@gmail.com">rasandilikshana@gmail.com</a>
+        <span className="d-block">mail us</span>{" "}
+        <a href="mailto:leadersguideofficial@outlook.com">leadersguideofficial@outlook.com</a>
       </p>
       {/* End .custom-span-contact */}
 
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-phone-square position-absolute"></i>
-        <span className="d-block">call me</span>{" "}
-        <a href="Tel: +94702294951">+94 702 294 951</a>
+        <span className="d-block">call us</span>{" "}
+        <a href="Tel: +94702294951">+94 77 369 8632</a>
       </p>
       {/* End .custom-span-contact */}
     </>

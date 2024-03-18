@@ -13,12 +13,6 @@ const experienceContent = [
     compnayName: "Centre for Defence Research and Development",
     details: `Started my journey as a Trainee Web Developer, learning the ropes and laying the foundation for my career in web development.`,
   },
-  {
-    year: "2019 Feb - 2020 Jan",
-    position: " TEMPORARY TELLER / CASHIER",
-    compnayName: "People’s Bank",
-    details: `Took on a temporary role as a Teller/Cashier, where I gained valuable insights into financial operations and customer interactions.`,
-  },
 ];
 
 const Experience = () => {
